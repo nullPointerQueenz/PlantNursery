@@ -2,13 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#FBF2DA">
+    android:backgroundTint="#50784C"
+    android:orientation="vertical"
+    android:gravity="center">
 
-    <Button
+    <ImageButton
+        android:id="@+id/plantButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/room_plantbutton1"
-        android:drawablePadding="4dp"
-        android:drawableTint="#50784C"
-        android:text="@string/plant" />
+        android:src="@drawable/room_plantbutton1"
+        android:background="@null"
+        android:contentDescription="@string/pflanze_1" />
+    <ImageButton
+        android:id="@+id/plantButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/room_plantbutton2"
+        android:background="@null"
+        android:contentDescription="pflanze_2"/>
+
+
 </LinearLayout>
