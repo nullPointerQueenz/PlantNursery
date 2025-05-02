@@ -1,9 +1,12 @@
 package com.example.app1;
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Room1Activity extends AppCompatActivity {
@@ -12,7 +15,8 @@ public class Room1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room1);  // Das Layout für Room1 (room1.xml)
-
+        LinearLayout layout = findViewById(R.id.room1Layout); // Angenommen, du hast die ID für dein Layout
+        layout.setBackgroundColor(Color.parseColor("#FBF2DA"));
         // Button finden
         @SuppressLint("WrongViewCast") ImageButton enterButton = findViewById(R.id.plantButton1);
 

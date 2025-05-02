@@ -10,4 +10,9 @@
     <color name="button_background_color">#FFF7EA</color>
     <color name="button_text_color">#2D4B27</color>
     <color name="background_darkgreen">#2D4B27</color>
+    <color name="background_lightgreen">#50784C</color>
+    <color name="beige">#FBF2DA</color>
+    <color name="offwight">#FFF7EA</color>
+    <color name="darkbrown">#9A5D40</color>
+    <color name="lightbrown">#CB8A67</color>
 </resources>

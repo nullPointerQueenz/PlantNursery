@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/room1Layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#50784C"
     android:backgroundTint="#50784C"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
     <ImageButton
         android:id="@+id/plantButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/room_plantbutton1"
-        android:background="@null"
-        android:contentDescription="@string/pflanze_1" />
+        android:background="@color/beige"
+        android:contentDescription="@string/pflanze_1"
+        android:src="@drawable/room_plantbutton1" />
+
     <ImageButton
         android:id="@+id/plantButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/room_plantbutton2"
-        android:background="@null"
-        android:contentDescription="pflanze_2"/>
+        android:background="@color/beige"
+        android:contentDescription="pflanze_2"
+        android:src="@drawable/room_plantbutton2" />
 
 
 </LinearLayout>
